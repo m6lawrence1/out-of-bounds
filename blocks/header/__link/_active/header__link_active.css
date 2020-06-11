@@ -1,0 +1,6 @@
+.header__link_active {
+    border: 2px solid #F8F8F8;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 16px;
+}

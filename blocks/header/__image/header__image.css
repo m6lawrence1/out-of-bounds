@@ -1,0 +1,5 @@
+.header__image {
+    display: flex;
+    object-fit: contain;
+    margin-bottom: 40px;
+}

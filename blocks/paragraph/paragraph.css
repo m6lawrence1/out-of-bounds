@@ -1,0 +1,8 @@
+.paragraph {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
