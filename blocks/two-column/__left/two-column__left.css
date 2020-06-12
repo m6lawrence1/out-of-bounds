@@ -1,0 +1,5 @@
+.two-column__left {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}

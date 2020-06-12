@@ -1,0 +1,9 @@
+@import url('./__img/two-column__img.css');
+@import url('./__left/two-column__left.css');
+@import url('./__link/two-column__link.css');
+@import url('./__right/two-column__right.css');
+
+.two-column {
+    display: flex;
+    width: 100%;
+}
