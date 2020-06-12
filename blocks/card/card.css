@@ -1,0 +1,31 @@
+@import url('./__content/card__content.css');
+@import url('./__source/card__source.css');
+@import url('./__lines/card__lines.css');
+@import url('./__line/card__line.css');
+@import url('./__line/_deg/card__line_deg_40.css');
+@import url('./__line/_deg/card__line_deg_50.css');
+@import url('./__line/_deg/card__line_deg_60.css');
+@import url('./__line/_deg/card__line_deg_70.css');
+@import url('./__line/_deg/card__line_deg_90.css');
+@import url('./__line/_deg/card__line_deg_100.css');
+@import url('./__line/_deg/card__line_deg_110.css');
+@import url('./__line/_deg/card__line_deg_120.css');
+@import url('./__line/_deg/card__line_deg_130.css');
+@import url('./__line/_deg/card__line_deg_140.css');
+@import url('./__line/_deg/card__line_deg_150.css');
+@import url('./__line/_deg/card__line_deg_160.css');
+@import url('./__line/_space/card__line_space_xs.css');
+@import url('./__line/_space/card__line_space_sm.css');
+@import url('./__line/_space/card__line_space_md.css');
+@import url('./__line/_space/card__line_space_lg.css');
+
+.card {
+    background: #FFC124;
+    border-radius: 10px;
+    width: 382px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 210px;
+    
+  }
