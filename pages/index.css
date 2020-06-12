@@ -13,16 +13,7 @@
 @import url('../blocks/title/title.css');
 @import url('../blocks/subtitle/subtitle.css');
 @import url('../blocks/paragraph/paragraph.css');
-<<<<<<< Updated upstream
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/divider/divider.css');
-
-@import url('');
-@import url('');
-=======
-@import url('../blocks/stats/stats.css');
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/card/card.css');
->>>>>>> Stashed changes
-@import url('');
-@import url('');
