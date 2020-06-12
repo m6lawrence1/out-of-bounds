@@ -1,7 +1,8 @@
-.about {
+.slider {
     max-width: 1200px;
     padding: 0 40px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 45px;
+    background-color: aqua;
 }

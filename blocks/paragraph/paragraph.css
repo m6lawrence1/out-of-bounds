@@ -1,8 +1,10 @@
+@import url('./_italic/paragraph_italic.css');
+
 .paragraph {
     font-family: Inter;
     font-weight: 500;
     font-size: 28px;
     line-height: 39px;
     max-width: 1200px;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
 }
