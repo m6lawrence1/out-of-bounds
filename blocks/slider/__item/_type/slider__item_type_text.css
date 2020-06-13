@@ -1,4 +1,16 @@
 .slider__item_type_text{
     background: #FFC124;
-    width: 382px;
+    width: 343px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .slider__item_type_text {
+      width:302px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .slider__item_type_text {
+      width:382px;
+    }
 }

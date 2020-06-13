@@ -1,8 +1,19 @@
 .slider__item-content{
     padding: 20px;
     margin: 0;
-    width: 342px;
+    width: 303px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;  
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__item-content {
+      width: 266px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .slider__item-content {
+      width: 342px;
+    }
 }

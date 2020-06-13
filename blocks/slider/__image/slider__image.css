@@ -1,7 +1,6 @@
-.slider__item_type_image{
-    height: 390px;
+.slider__image{
     width:1200px;
-/*    height: auto;*/
+    height: 390px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;  
@@ -9,12 +8,14 @@
 
 
 @media screen and (min-width: 1024px) {
-  .slider__item_type_image {
+  .slider__image {
+      width:944px;
       height: 520px;
     }
 }
 @media screen and (min-width: 1280px) {
-  .slider__item_type_image {
-      height: 660px;
+  .slider__image {
+      height:660px;
+      width: 1200px;
     }
 }
