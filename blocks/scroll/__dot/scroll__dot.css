@@ -1,0 +1,7 @@
+.scroll__dot{
+    width: 6px;
+    height: 6px;
+    background: #DFDFDA;
+    margin: 8px;
+    border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.scroll__button{
+    width: 53px;
+    height: 53px;
+    border: 1.7px solid #499B99;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url('../../../images/scroll__button_prev.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}

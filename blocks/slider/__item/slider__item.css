@@ -1,0 +1,10 @@
+@import url('./_type/slider__item_type_image.css');
+@import url('./_type/slider__item_type_text.css');
+
+.slider__item {
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 210px;   
+}

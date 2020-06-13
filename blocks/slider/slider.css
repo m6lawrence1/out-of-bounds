@@ -1,8 +1,17 @@
+@import url('./_type/slider_type_image.css');
+@import url('./_type/slider_type_text.css');
+@import url('./__item/slider__item.css');
+@import url('./__item-content/slider__item-content.css');
+@import url('./__item-source/slider__item-source.css');
+
 .slider {
-    max-width: 1200px;
-    padding: 0 40px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 45px;
-    background-color: aqua;
+    display: grid;
+    height: 100%;
+    width:100%;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
 }

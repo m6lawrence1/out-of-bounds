@@ -1,0 +1,5 @@
+.slider_type_text{
+    grid-template-columns: repeat(382px);
+    grid-gap: 27px;
+    
+}

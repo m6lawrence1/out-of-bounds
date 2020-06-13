@@ -1,8 +1,8 @@
-.card__content{
+.slider__item-content{
     padding: 20px;
     margin: 0;
     width: 342px;
     font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 24px;  
 }
