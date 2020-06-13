@@ -1,5 +1,6 @@
 @import url('./_type/slider__item_type_image.css');
 @import url('./_type/slider__item_type_text.css');
+@import url('./_bg/slider__item_bg_dots.css');
 
 .slider__item {
     border-radius: 10px;
