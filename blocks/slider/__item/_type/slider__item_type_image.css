@@ -1,3 +1,20 @@
 .slider__item_type_image{
-    height: 660px;
+    height: 390px;
+    width:1200px;
+/*    height: auto;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+}
+
+
+@media screen and (min-width: 1024px) {
+  .slider__item_type_image {
+      height: 520px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .slider__item_type_image {
+      height: 660px;
+    }
 }
