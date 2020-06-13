@@ -3,7 +3,23 @@
     font-style: normal;
     font-weight: 500;
     line-height: 38px;
-    padding: 100px 0 22px;
+    padding: 100px 0 34px;
     margin: 0;
     max-width: 1200px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .title {
+        font-size: 31px;
+        line-height: 31px;
+        padding: 84px 0 32px; 
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .title {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 68px 0 30px; 
+    }
 }
