@@ -16,9 +16,8 @@
       <a class="header__link" href="#">E-mail</a>
       <a class="header__link header__link_active" href="#">Help Us</a>
     </nav>
-    <img class="header__image" src="./images/header-image.png" alt="Header graphic">
-    <img class="header__title" src="./images/header-title.png" alt="Page title graphic">
-    <p class="header__scroll">↓ Scroll Down ↓</p>
+    <div class="header__image"></div>
+    <div class="header__bottom"></div>
   </header>
 
   <section class="about">
@@ -26,11 +25,11 @@
     <p class="paragraph"><span class="paragraph_italic">Out of Bounds</span> focuses on prevention by showing the children of incarcerated parents that Love and Life have No Bounds.</p>
     <ul class="slider slider_type_image">
       <li class="slider__item slider__item_type_image">
-        <img class="card__image" src="images/hati_curiosity.png" alt="curious girl" />
+        <div class="slider__image" role="img" style="background-image: url('../../../images/slider/slider_type_image/hati_curiosity.png');"></div>
       </li>
       <!--Added duplicate to test slider-->
       <li class="slider__item slider__item_type_image">
-        <img class="card__image" src="images/hati_curiosity.png" alt="curious girl" />
+        <div class="slider__image" role="img" style="background-image: url('../../../images/slider/slider_type_image/hati_curiosity.png');"></div>
       </li>
     </ul>
     <div class="scroll">
@@ -52,23 +51,23 @@
     <p class="paragraph"><span class="paragraph_italic">Out of Bounds</span> will assist in fostering and maintaining relationships between parents and their children through programming and special projects.</p>
   </section>
 
-  <section class="stats">
+  <section class="stats section-column">
     <h2 class="title">statistics are real</h2>
     <h3 class="subtitle">It is terrible and unpleasant truth.</h3>
     <ul class="slider slider_type_text">
-      <li class="slider__item slider__item_type_text">
+      <li class="slider__item slider__item_type_text slider__item_bg_dots">
         <p class="slider__item-content">2.7 million minor children with an incarcerated parent in the United States.</p>
         <p class="slider__item-source">NCJRS, 2017</p>
       </li>
-      <li class="slider__item slider__item_type_text">
+      <li class="slider__item slider__item_type_text slider__item_bg_stripe">
         <p class="slider__item-content">10 million children will have an incarcerated parent in their life time.</p>
         <p class="slider__item-source">NRCCFI, 2014</p>
       </li>
-      <li class="slider__item slider__item_type_text">
+      <li class="slider__item slider__item_type_text slider__item_bg_wave">
         <p class="slider__item-content">Children of incarcerated parents are 6 times more likely to enter the justice system.</p>
         <p class="slider__item-source">NCJRS, 2017</p>
       </li>
-      <li class="slider__item slider__item_type_text">
+      <li class="slider__item slider__item_type_text slider__item_bg_squiggle">
         <p class="slider__item-content">59% of state prisoners report no visits with their children.</p>
         <p class="slider__item-source">NRCCFI, 2014</p>
       </li>
@@ -87,6 +86,7 @@
         <button class="scroll__button scroll__button_next"></button>
       </div>
     </div>
+    <div class="divider"></div>
   </section>
 
   <section class="founder section-column">

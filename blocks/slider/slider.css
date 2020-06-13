@@ -1,6 +1,7 @@
 @import url('./_type/slider_type_image.css');
 @import url('./_type/slider_type_text.css');
 @import url('./__item/slider__item.css');
+@import url('./__image/slider__image.css');
 @import url('./__item-content/slider__item-content.css');
 @import url('./__item-source/slider__item-source.css');
 

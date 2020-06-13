@@ -1,3 +1,15 @@
 .slider_type_image{
-    grid-template-columns: repeat(1200px);
+    grid-template-columns: 708px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .slider_type_image {
+    grid-template-columns: 944px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .slider_type_image {
+    grid-template-columns: 1200px;
+    }
 }
