@@ -3,13 +3,15 @@
     margin: 0;
     width: 303px;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;  
+    font-size: 16px;
+    line-height: 22px;
 }
 
 @media screen and (min-width: 1024px) {
   .slider__item-content {
       width: 266px;
+      font-size: 18px;
+      line-height: 24px; 
     }
 }
 @media screen and (min-width: 1280px) {
