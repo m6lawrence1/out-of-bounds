@@ -1,0 +1,11 @@
+.header__bottom {
+    height: 53px;
+    width: 100vw;
+    background-color: #429a6b;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .header__bottom {
+        height: 42px;
+    }
+}
