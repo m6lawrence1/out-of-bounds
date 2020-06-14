@@ -1,0 +1,27 @@
+.form__button {
+  border: 1.7px solid #499B99;
+  box-sizing: border-box;
+  border-radius: 200px;
+  padding: 10px 52px;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 39px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #111111;
+  flex-shrink: 1;
+}
+
+.form__button:focus {
+  background-color: #FFC124;
+  ;
+  font-weight: 500;
+}
+
+.form__button:active {
+  background-color: #FFC124;
+  font-weight: 500;
+}

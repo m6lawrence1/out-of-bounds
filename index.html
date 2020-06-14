@@ -124,28 +124,28 @@
 
     <!-- pledge form start -->
     <form class="form" action="">
-      <fieldset class=" form__fieldset form__personal-info">
-        <input class="form__personal-info_item" type="text" name="firstName" id="">
-        <input class="form__personal-info_item" type="text" name="lastName" id="">
-        <input class="form__personal-info_item" type="email" name="email" id="">
-      </fieldset>
-      <fieldset class="form__fieldset">
-        <input type="radio" value="">
-        <input type="radio" value="">
-        <input type="radio" value="">
-        <input type="radio" value="">
-        <input type="radio" value="">
-        <input type="text" value="">
-      </fieldset>
+      <div class=" form__fieldset form__personal-info">
+        <input class="form__personal-info_item" type="text" placeholder="Your Name" name="firstName" id="">
+        <input class="form__personal-info_item form__personal-info_span" type="text" placeholder="Your Surname" name="lastName" id="">
+        <input class="form__personal-info_item" type="email" placeholder="E-mail" name="email" id="">
+      </div>
+      <div class="form__fieldset form__amount">
+        <button class="form__button" type="button" value="1$">1$ </button>
+        <button class="form__button" type="button" value="1$">5$ </button>
+        <button class="form__button" type="button" value="1$">50$ </button>
+        <button class="form__button" type="button" value="1$">100$ </button>
+        <button class="form__button" type="button" value="1$">Another (from 1$) </button>
+        <!-- <input class="form__custom" type="text" placeholder="Another (from 1$)"> -->
+      </div>
 
-      <input type="submit" value="Submit">
+      <input class="form__submit" type="submit" value="Make a Pledge">
     </form>
-    <p>
+    <p class="donate__consent">
       By clicking "Donate", you consent to the
       <span>processing of personal data</span>
     </p>
 
-    <p>
+    <p class="donate__about">
       Out of Bounds is an up and coming non-profit organization that has not yet obtained their 501C3 status. This simply means that although the organization has started operating, donations received are not tax deductible. Out of Bounds Support would like
       to partner with another non-profit to obtain fiscal sponsorship, which would then allow for donations to be tax deductible. In order to solidify this relationship.
     </p>
@@ -155,6 +155,12 @@
 
 
   <footer class="footer">
+    <div class="footer__hr" style="border: 1.7px solid #223D46;"> </div>
+    <div class="footer__legal">
+      <p>Out of Bounds Support 2020</p>
+      <p>Made by Students of Yandex.Practicum</p>
+    </div>
+
 
   </footer>
 </body>

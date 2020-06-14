@@ -1,0 +1,10 @@
+.footer__legal {
+  margin: 100px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #223D46;
+}

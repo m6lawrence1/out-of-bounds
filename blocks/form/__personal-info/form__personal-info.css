@@ -1,4 +1,8 @@
 @import url('./_item/form__personal-info_item.css');
+@import url('./_span/form__personal-info_span.css');
 .form__personal-info {
-  max-width: 100%;
+  margin: 0 0 70px 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
 }

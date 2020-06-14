@@ -1,3 +1,5 @@
 .form__personal-info_item {
+  border: none;
   border-bottom: 1.7px solid #499B99;
+  width: 374px;
 }

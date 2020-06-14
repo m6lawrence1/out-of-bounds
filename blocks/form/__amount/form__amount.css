@@ -1,0 +1,13 @@
+  .form__amount {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .form__amount {
+      flex-wrap: nowrap;
+      overflow: hidden;
+    }
+  }
