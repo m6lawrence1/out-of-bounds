@@ -25,3 +25,18 @@
   background-color: #FFC124;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 1280px) {
+  .form__button {
+    padding: 8px 40px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .form__button {
+    margin-top: 16px;
+  }
+  .form__button:last-of-type {
+    flex-grow: 1;
+  }
+}

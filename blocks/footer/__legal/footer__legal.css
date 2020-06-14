@@ -8,3 +8,11 @@
   line-height: 20px;
   color: #223D46;
 }
+
+@media only screen and (max-width: 768px) {
+  .footer__legal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

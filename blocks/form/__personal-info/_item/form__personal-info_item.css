@@ -1,5 +1,15 @@
 .form__personal-info_item {
   border: none;
   border-bottom: 1.7px solid #499B99;
-  width: 374px;
+  width: 33%;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__personal-info_item {
+    width: 45%;
+  }
+  .form__personal-info_item:last-of-type {
+    flex-grow: 1;
+    margin-top: 16px;
+  }
 }
