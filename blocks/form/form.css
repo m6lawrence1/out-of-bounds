@@ -1,0 +1,10 @@
+@import url(./__personal-info/form__personal-info.css);
+@import url(./__fieldset/form__fieldset.css);
+@import url(./__button/form__button.css);
+@import url(./__amount/form__amount.css);
+@import url(./__custom/form__custom.css);
+@import url(./__submit/form__submit.css);
+
+.form {
+  margin-top: 160px;
+}

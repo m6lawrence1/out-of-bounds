@@ -1,0 +1,15 @@
+@import url('./_item/form__personal-info_item.css');
+@import url('./_span/form__personal-info_span.css');
+.form__personal-info {
+  margin: 0 0 70px 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__personal-info {
+    flex-wrap: wrap;
+  }
+}
