@@ -2,7 +2,6 @@
   border: 1.7px solid #499B99;
   box-sizing: border-box;
   border-radius: 200px;
-  /* padding: 10px 50px; */
   margin: 0;
   font-size: 28px;
   line-height: 39px;
@@ -15,10 +14,12 @@
 
 .form__button:focus {
   background-color: #FFC124;
+  border-color: #FFC124;
   font-weight: 500;
 }
 
 .form__button:active {
   background-color: #FFC124;
+  border-color: #FFC124;
   font-weight: 500;
 }

@@ -12,9 +12,9 @@
   <header class="header">
     <nav class="header__navbar">
       <img class="header__logo" src="./images/header-logo.png" alt="Logo">
-      <a class="header__link" href="#">Instagram</a>
-      <a class="header__link" href="#">E-mail</a>
-      <a class="header__link header__link_active" href="#">Help Us</a>
+      <a class="header__link link-hover" href="https://www.instagram.com/outofboundssupport/" target="_blank">Instagram</a>
+      <a class="header__link link-hover" href="#">E-mail</a>
+      <a class="header__link header__link_active link-hover" href="#donate">Help Us</a>
     </nav>
     <div class="header__image"></div>
     <div class="header__bottom"></div>
@@ -94,7 +94,7 @@
     <div class="two-column">
       <div class="two-column__left">
         <img class="two-column__img" src="./images/profile.png" alt="Picture of Raven Wilkerson">
-        <a class="two-column__link" href="#">E-mail / Instagram</a>
+        <p class="two-column__link"><a class="two-column__link link-hover" href="#">E-mail</a> / <a class="two-column__link link-hover" href="https://www.instagram.com/outofboundssupport/" target="_blank">Instagram</a></p>
       </div>
       <div class="two-column__right">
         <p class="paragraph"><span class="paragraph_italic">Raven Wilkerson</span> — psychologist (Temple University) and creator of Out of Bounds project. Upon graduation Raven began working at a halfway house facility for incarcerated women in Camden, NJ. During this experience
@@ -118,7 +118,7 @@
     <div class="divider"></div>
   </section>
 
-  <section class="donate section-column">
+  <section class="donate section-column" id="donate">
     <h2 class="title">how to help</h2>
     <p class="paragraph">If you want to help this project, pay attention to the form below. You can plege any amount to us, we will be happy for any help, even the smallest.</p>
 
@@ -142,20 +142,19 @@
     </form>
     <p class="donate__consent">
       By clicking "Donate", you consent to the
-      <span>processing of personal data</span>
+      <a class="donate__link link-hover" href="#">processing of personal data</a>
     </p>
 
     <p class="donate__about">
       Out of Bounds is an up and coming non-profit organization that has not yet obtained their 501C3 status. This simply means that although the organization has started operating, donations received are not tax deductible. Out of Bounds Support would like
       to partner with another non-profit to obtain fiscal sponsorship, which would then allow for donations to be tax deductible. In order to solidify this relationship.
     </p>
-
+    <div class="divider"></div>
   </section>
 
 
 
-  <footer class="footer">
-    <div class="footer__hr" style="border: 1.7px solid #223D46;"> </div>
+  <footer class="footer section-column">
     <div class="footer__legal">
       <p>Out of Bounds Support 2020</p>
       <p>Made by Students of Yandex.Practicum</p>

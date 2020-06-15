@@ -8,8 +8,12 @@
     background-image: url('../../../images/scroll__button_prev.svg');
     background-repeat: no-repeat;
     background-position: center;
+    transition: border-color ease-in-out .2s;
 }
 
+.scroll__button:hover {
+  border-color: #FFC124;
+}
 
 @media screen and (min-width: 1024px) {
   .scroll__button {
