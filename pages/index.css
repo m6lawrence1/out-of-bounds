@@ -11,8 +11,9 @@
 @import url('../blocks/stats/stats.css');
 @import url('../blocks/two-column/two-column.css');
 @import url('../blocks/facts/facts.css');
-@import url("../blocks/donate/donate.css");
-@import url("../blocks/footer/footer.css");
+@import url('../blocks/donate/donate.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/footer/footer.css');
 
 /* Non-section specific blocks */
 
