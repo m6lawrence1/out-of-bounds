@@ -5,3 +5,17 @@
     color: #111111;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .two-column__link  {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .two-column__link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}

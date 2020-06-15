@@ -12,6 +12,7 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .paragraph {
         font-size: 23px;
+        line-height: 31px;
         margin-bottom: 18px;
     }
 }
@@ -19,6 +20,7 @@
 @media screen and (max-width: 769px) {
     .paragraph {
         font-size: 20px;
+        line-height: 28px;
         margin-bottom: 18px;
     }
 }
