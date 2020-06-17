@@ -23,3 +23,7 @@
   border-color: #FFC124;
   font-weight: 500;
 }
+
+.form__button:hover {
+  border: 1.7px solid #FFC124;
+}
