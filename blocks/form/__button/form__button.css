@@ -26,4 +26,5 @@
 
 .form__button:hover {
   border: 1.7px solid #FFC124;
+  cursor: pointer;
 }
