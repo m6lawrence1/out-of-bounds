@@ -1,11 +1,9 @@
 @import url('./__button-container/scroll__button-container.css');
 @import url('./__button/scroll__button.css');
 @import url('./__button-text/scroll__button-text.css');
-@import url('./__button/_next/scroll__button_next.css');
-@import url('./__button/_prev/scroll__button_prev.css');
 @import url('./__dots/scroll__dots.css');
 @import url('./__dot/scroll__dot.css');
-@import url('./__dot/_active/scroll__dot_active.css');
+@import url('./__dot/_active/scroll__dot_active.css'); /*left this one here so it would override scroll__dot style for when the dot is active*/
 
 
 .scroll {

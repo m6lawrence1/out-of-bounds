@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-.facts__article:nth-of-type(2) {
+.facts__article:last-of-type {
     margin-top: 0;
     margin-bottom: 45px;
 }
