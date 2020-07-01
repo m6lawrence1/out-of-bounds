@@ -17,10 +17,18 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
     .paragraph {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 16px;
     }
 }

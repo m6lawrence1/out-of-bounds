@@ -16,10 +16,18 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
     .title {
         font-size: 28px;
         line-height: 28px;
-        margin: 68px 0 30px; 
+        margin: 68px 0 20px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 50px 0 16px; 
     }
 }
