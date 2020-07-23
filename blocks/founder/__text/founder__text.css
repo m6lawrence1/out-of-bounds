@@ -1,0 +1,10 @@
+.founder__text{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .founder__text {
+        grid-row: span 2;
+    }
+}

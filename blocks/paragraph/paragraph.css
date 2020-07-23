@@ -9,6 +9,10 @@
     margin: 0 0 20px;
 }
 
+.paragraph:last-of-type{
+    margin: 0;
+}
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .paragraph {
         font-size: 23px;

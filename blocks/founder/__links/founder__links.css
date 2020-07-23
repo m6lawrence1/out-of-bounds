@@ -1,0 +1,19 @@
+.founder__links{
+    margin: 0;
+    order: 3;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+    .founder__links {
+        padding-top: 0;
+        grid-row: span 2;
+    }
+}
+
