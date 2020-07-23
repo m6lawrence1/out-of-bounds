@@ -1,10 +1,12 @@
 .founder__text{
     width: 100%;
+    padding-top: 20px;
 }
 
-
-@media screen and (min-width: 768px) {
+/*looked better breaking around 500*/
+@media screen and (min-width: 500px) {
     .founder__text {
         grid-row: span 2;
+        padding:0;
     }
 }

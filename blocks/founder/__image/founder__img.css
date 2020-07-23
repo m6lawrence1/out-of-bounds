@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    margin-bottom: 20px;
     width: 100%;
     object-fit: contain;
     height: auto;
 }
 
-@media screen and (min-width: 768px) {
+/*looked better breaking around 500*/
+@media screen and (min-width: 500px) {
     .founder__img {
         max-width: 188px;
-        margin-bottom: 30px;
         height: auto;
     }
 }

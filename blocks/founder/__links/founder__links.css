@@ -10,9 +10,9 @@
     
 }
 
-@media screen and (min-width: 768px) {
+/*looked better breaking around 500*/
+@media screen and (min-width: 500px) {
     .founder__links {
-        padding-top: 0;
         grid-row: span 2;
     }
 }

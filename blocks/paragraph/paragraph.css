@@ -3,36 +3,33 @@
 .paragraph {
     font-family: Inter;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 39px;
-    max-width: 1200px;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 16px;
     margin: 0 0 20px;
 }
 
-.paragraph:last-of-type{
-    margin: 0;
-}
-
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-    .paragraph {
-        font-size: 23px;
-        line-height: 31px;
-        margin-bottom: 18px;
-    }
-}
-
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (min-width: 768px) {
     .paragraph {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 18px;
     }
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1024px) {
     .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        margin-bottom: 16px;
+        font-size: 23px;
+        line-height: 31px;
     }
 }
+@media screen and (min-width: 1280px) {
+    .paragraph {
+        font-size: 28px;
+        line-height: 39px;
+    }
+}
+
+.paragraph:last-of-type{
+    margin: 0;
+}
+
