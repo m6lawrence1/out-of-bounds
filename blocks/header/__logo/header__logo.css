@@ -3,11 +3,14 @@
     padding-left: 20px;
     margin-right: auto;
     width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media screen and (min-width: 768px) { 
     .header__logo {
-        width: 92px;
+        width: 92px; 
     }
 }
 
