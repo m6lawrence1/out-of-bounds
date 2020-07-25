@@ -1,6 +1,8 @@
-/*@import url('./__backdrop/header__backdrop.css');*/ 
-@import url('./__bottom/header__bottom.css');
-@import url('./__image/header__image.css');
+@import url('./__content/header__content.css');
+@import url('./__img-container/header__img-container.css');
+@import url('./__img-top/header__img-top.css');
+@import url('./__img/header__img.css');
+@import url(./__img-bottom/header__img-bottom.css);
 @import url('./__link/header__link.css');
 @import url('./__logo/header__logo.css');
 @import url('./__navbar/header__navbar.css');
@@ -10,10 +12,4 @@
 .header {
     background-color: #223D46;
     color: #F8F8F8;
-    max-width: 100%;
-    padding: 10px 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
 }

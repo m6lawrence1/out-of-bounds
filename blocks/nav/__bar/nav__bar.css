@@ -1,0 +1,26 @@
+.nav__bar {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 1.625rem;
+}
+
+.nav__bar:before, .nav .nav__btn .nav__bar:after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.nav__bar:before {
+    top: 8px;
+}
+
+.nav__bar:after {
+    top: -8px;
+}
+

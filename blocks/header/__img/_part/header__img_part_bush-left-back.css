@@ -1,0 +1,27 @@
+.header__img_part_bush-left-back{
+    width: auto;
+    max-height: 249px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    margin-left: -45px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__img_part_bush-left-back {
+        max-height: 496px;
+        margin-left: -65px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header__img_part_bush-left-back {
+        max-height: 396px;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .header__img_part_bush-left-back {
+        max-height: 496px;
+    }
+}

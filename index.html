@@ -12,14 +12,29 @@
 
   <!-- Header Section -->
   <header class="header">
-    <nav class="header__navbar">
+    <div class="header__content">
       <img class="header__logo" src="./images/header-logo.png" alt="Logo">
-      <a class="header__link link-hover" href="https://www.instagram.com/outofboundssupport/" target="_blank">Instagram</a>
-      <a class="header__link link-hover" href="#">E-mail</a>
-      <a class="header__link header__link_active link-hover" href="#donate">Help Us</a>
+    <nav class="nav" >  
+      <input class="nav__select-input" type="checkbox" id="menu-btn" />
+      <label class="nav__btn" for="menu-btn"><span class="nav__bar"></span></label>
+      <div class="nav__overlay">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a class="header__link link-hover" href="https://www.instagram.com/outofboundssupport/" target="_blank">Instagram</a></li>
+          <li class="nav__list-item"><a class="header__link link-hover" href="#">E-mail</a></li>
+          <li class="nav__list-item"><a class="header__link header__link_active link-hover" href="#donate">Help Us</a></li>
+        </ul> 
+      </div>
     </nav>
-    <div class="header__image"></div>
-    <div class="header__bottom"></div>
+    </div>
+    <div class="header__img-container">
+      <div class="header__img-top">
+        <img class="header__img header__img_part_bush-left-back" alt="bushes" src="./images/left_bush_back.png"/>
+        <img class="header__img header__img_part_bush-left-front" alt="bushes" src="./images/left_bush_front.png"/>
+        <img class="header__img header__img_part_window" alt="girl looking out window with her dog" src="./images/window.png"/>
+        <img class="header__img header__img_part_bush-right" alt="bushes" src="./images/right_bush.png"/>
+      </div> 
+      <img class="header__img-bottom" alt="grass" src="./images/grass.png"/>
+    </div>
   </header>
 
   <!-- About Section -->
@@ -30,7 +45,7 @@
       <li class="slider__item slider__item_type_image">
         <div class="slider__image" role="img" style="background-image: url('./images/slider/slider_type_image/hati_curiosity.png');"></div>
       </li>
-      <!--Added duplicate to test slider-->
+      Added duplicate to test slider
       <li class="slider__item slider__item_type_image">
         <div class="slider__image" role="img" style="background-image: url('./images/slider/slider_type_image/hati_curiosity.png');"></div>
       </li>

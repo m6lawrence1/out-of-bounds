@@ -1,0 +1,22 @@
+.header__img-container{
+    position: relative;
+    overflow: hidden;
+    min-height: 562px;   
+}
+
+@media screen and (min-width: 768px) {
+    .header__img-container{
+        min-height: 653px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header__img-container{
+        min-height: 642px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header__img-container{
+        min-height: 653px;
+    }
+}

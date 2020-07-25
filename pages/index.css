@@ -14,7 +14,7 @@
 @import url('../blocks/footer/footer.css');
 
 /* Non-section specific blocks */
-
+@import url('../blocks/nav/nav.css');
 @import url('../blocks/section-column/section-column.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/subtitle/subtitle.css');

@@ -1,0 +1,13 @@
+.header__img-top{
+    display: flex;
+    position: relative;
+    min-height: 465px;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__img-top {
+        min-height: 540px;
+    }
+}

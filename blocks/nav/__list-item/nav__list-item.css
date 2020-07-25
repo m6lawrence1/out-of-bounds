@@ -1,0 +1,7 @@
+.nav__list-item{
+    margin: 0;
+    display: inline-block;
+    margin: 15px auto;
+    padding: 18px 10px;
+    text-align: center;
+}
