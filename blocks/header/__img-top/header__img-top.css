@@ -1,13 +1,25 @@
 .header__img-top{
     display: flex;
     position: relative;
-    min-height: 465px;
+    min-height: 500px;
     justify-content: center;
-    padding-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
     .header__img-top {
+        min-height: 592px;
+        padding-top: 60px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header__img-top {
+        min-height: 428px;
+        padding:0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .header__img-top {
         min-height: 540px;
+        padding:0;
     }
 }

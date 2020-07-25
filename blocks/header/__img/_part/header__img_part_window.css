@@ -1,5 +1,6 @@
 .header__img_part_window{
     max-height: 247px;
+    align-self: center;
 }
 
 
@@ -14,6 +15,7 @@
 @media screen and (min-width: 1024px) {
     .header__img_part_window {
         max-height: 288px;
+        align-self: center;
     }
 }
 
