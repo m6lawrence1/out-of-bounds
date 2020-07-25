@@ -1,9 +1,13 @@
 .slider_type_text{
-    grid-template-columns: 343px;
-    grid-gap: 27px;
-    
+    grid-template-columns: 288px;
 }
 
+@media screen and (min-width: 768px) {
+  .slider_type_text {
+    grid-template-columns: 343px;
+    grid-gap: 27px;
+    }
+}
 @media screen and (min-width: 1024px) {
   .slider_type_text {
     grid-template-columns: 302px;

@@ -1,12 +1,17 @@
 .slider__item-content{
     padding: 20px;
     margin: 0;
-    width: 303px;
+    width:288px;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
 }
 
+@media screen and (min-width: 1024px) {
+  .slider__item-content {
+      width: 303px;
+    }
+}
 @media screen and (min-width: 1024px) {
   .slider__item-content {
       width: 266px;

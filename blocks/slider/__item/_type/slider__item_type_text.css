@@ -1,9 +1,17 @@
 .slider__item_type_text{
     background: #FFC124;
-    width: 343px;
+    width: 288px;
+    min-height: 180px;
+    
 }
 
 
+@media screen and (min-width: 768px) {
+  .slider__item_type_text {
+      width: 343px;
+      min-height: 210px; 
+    }
+}
 @media screen and (min-width: 1024px) {
   .slider__item_type_text {
       width:302px;

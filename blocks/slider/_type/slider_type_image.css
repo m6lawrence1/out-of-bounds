@@ -1,8 +1,13 @@
 .slider_type_image{
-    grid-template-columns: 708px;
+    grid-template-columns: 288px;
 }
 
 
+@media screen and (min-width: 768px) {
+  .slider_type_image {
+    grid-template-columns: 708px;
+    }
+}
 @media screen and (min-width: 1024px) {
   .slider_type_image {
     grid-template-columns: 944px;
