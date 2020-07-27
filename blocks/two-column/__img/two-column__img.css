@@ -1,11 +1,14 @@
 .two-column__img {
+    display: flex;
     border-radius: 10px;
-    margin-bottom: 64px;
-    object-fit: contain;
-    height: min-content;
+    margin-bottom: 34px;
+    width: 100%;
+    object-fit: cover;
+    /* height: min-content; */
+    grid-area: pic;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+/* @media screen and (max-width: 1024px) and (min-width: 769px) {
     .two-column__img {
         margin-bottom: 32px;
         width: 210px;
@@ -17,4 +20,4 @@
         margin-bottom: 30px;
         width: 188px;
     }
-}
+} */
