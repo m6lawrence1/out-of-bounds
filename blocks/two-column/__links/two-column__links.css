@@ -1,0 +1,4 @@
+.two-column__links {
+    grid-area: link;
+    margin: 0;
+}
