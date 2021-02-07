@@ -1,0 +1,33 @@
+.nav__select-input{
+    display: none;
+}
+
+.nav__select-input:checked ~ .nav__btn:not(.steps) .nav__bar:before, .nav .nav__select-input:checked ~ .nav__btn:not(.steps) .nav__bar:after {
+    top: 0;
+}
+.nav__select-input:checked ~ .nav__btn .nav__bar:after {
+    transform: rotate(45deg);
+}
+.nav__select-input:checked ~ .nav__btn:not(.steps) .nav__bar:before, .nav .nav__select-input:checked ~ .nav__btn:not(.steps) .nav__bar:after {
+    top: 0;
+}
+.nav .nav__select-input:checked ~ .nav__btn .nav__bar:before {
+    transform: rotate(-45deg);
+}
+
+.nav .nav__select-input:checked ~ .nav__btn .nav__bar {
+    background: transparent;
+}
+
+.nav__select-input:checked ~ .nav__overlay{
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    position: absolute;
+    z-index: 70;
+}
+
+@media screen and (min-width: 768px) {
+    .nav__select-input {
+        display: none;
+    }
+}

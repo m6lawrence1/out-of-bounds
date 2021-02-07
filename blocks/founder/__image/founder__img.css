@@ -1,0 +1,26 @@
+.founder__img{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+
+/*looked better breaking around 500*/
+@media screen and (min-width: 500px) {
+    .founder__img {
+        max-width: 188px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .founder__img {
+        max-width: 210px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .founder__img {
+        max-width: 260px;
+    }
+}

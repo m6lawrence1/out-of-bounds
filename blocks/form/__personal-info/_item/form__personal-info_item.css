@@ -1,0 +1,24 @@
+.form__personal-info_item {
+  border: none;
+  border-bottom: 1.7px solid #499B99;
+  width: 33%;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: inherit;
+  padding-bottom: 10px;
+  color: #111111;
+}
+
+.form__personal-info_item::placeholder {
+  color: #111111;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__personal-info_item {
+    width: 45%;
+  }
+  .form__personal-info_item:last-of-type {
+    flex-grow: 1;
+    margin-top: 16px;
+  }
+}

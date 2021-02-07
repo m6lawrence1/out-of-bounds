@@ -1,0 +1,45 @@
+.facts__article {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.facts__article:last-of-type {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.facts__article .facts__link {
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0);
+    transition: text-decoration-color ease-in .3s;
+}
+
+.facts__article:hover .facts__link {
+    text-decoration-color: #FFC124;
+}
+
+.facts__article .facts__icon {
+    transition: color ease-in .3s;
+}
+
+.facts__article:hover .facts__icon {
+    color: #FFC124;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .facts__article:nth-of-type(2)  {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .facts__article  {
+        margin-bottom: 20px;
+    }
+    .facts__article:nth-of-type(2)  {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('./__image/founder__img.css');
+@import url('./__links/founder__links.css');
+@import url('./__link/founder__link.css');
+@import url('./__text/founder__text.css');
+
+.founder{
+    display: grid; 
+}
+
+/*looked better breaking around 500*/
+@media screen and (min-width: 500px) { 
+    .founder {
+        grid-template-columns: auto auto;
+        grid-auto-rows: minmax(min-content, max-content);
+        column-gap: 30px;
+    }
+}

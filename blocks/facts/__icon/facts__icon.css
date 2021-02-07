@@ -1,0 +1,23 @@
+.facts__icon {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    color: #499B99;
+    text-decoration: none;
+    margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .facts__icon {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .facts__icon {
+        font-size: 19px;
+        line-height: 19px;
+    }
+}

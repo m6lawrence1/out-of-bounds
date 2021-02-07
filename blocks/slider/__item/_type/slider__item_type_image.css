@@ -1,0 +1,22 @@
+.slider__item_type_image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+}
+
+
+@media screen and (min-width: 768px) {
+  .slider__item_type_image {
+      min-height: 390px;
+    }
+}
+@media screen and (min-width: 1024px) {
+  .slider__item_type_image {
+      min-height: 520px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .slider__item_type_image {
+      min-height: 660px;
+    }
+}

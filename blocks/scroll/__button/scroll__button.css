@@ -1,0 +1,32 @@
+@import url('./_next/scroll__button_next.css');
+@import url('./_prev/scroll__button_prev.css');
+
+.scroll__button{
+    width: 45px;
+    height: 45px;
+    border: 1.7px solid #499B99;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url('./scroll__button_arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: border-color ease-in-out .2s;
+}
+
+.scroll__button:hover {
+  border-color: #FFC124;
+}
+
+@media screen and (min-width: 1024px) {
+  .scroll__button {
+      width: 49px;
+      height: 49px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .scroll__button {
+      width: 53px;
+      height: 53px;
+    }
+}

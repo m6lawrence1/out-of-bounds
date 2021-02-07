@@ -1,0 +1,16 @@
+.slider__item-source{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .slider__item-source {
+      font-size: 18px;
+      line-height: 18px;
+    }
+}

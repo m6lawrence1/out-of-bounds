@@ -1,0 +1,15 @@
+@import url('./__content/header__content.css');
+@import url('./__img-container/header__img-container.css');
+@import url('./__img-top/header__img-top.css');
+@import url('./__img/header__img.css');
+@import url(./__img-bottom/header__img-bottom.css);
+@import url('./__link/header__link.css');
+@import url('./__logo/header__logo.css');
+@import url('./__navbar/header__navbar.css');
+/*@import url('./__scroll/header__scroll.css');*/
+/*@import url('./__title/header__title.css');*/
+
+.header {
+    background-color: #223D46;
+    color: #F8F8F8;
+}

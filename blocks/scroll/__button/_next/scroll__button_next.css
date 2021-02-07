@@ -1,0 +1,4 @@
+.scroll__button_next{
+    transform: rotate(-180deg);
+    margin-left: 30px;
+}
